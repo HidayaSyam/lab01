@@ -1,4 +1,5 @@
-
+@media (min-width:768px)
+{
 main{
     display: grid;
     grid-template-columns: 200px repeat(4,190px);
@@ -9,49 +10,87 @@ main{
     grid-column: 1/6;
 }
 .b{
-    background-color: #D6EAF8  ;
+    background-color: #2980B9  ;
     height: 600px;
     grid-column: 1/2;
 
 }
-.c,.d{
-    background-color: #AED6F1;
-}
+
 .c{
     grid-column: 2/4;
-   
+   background-color:#A9CCE3; 
 }
 .d{
     grid-column: 4/6;
+    background-color: #D4E6F1;
     
 }
 
-.e,.f,.j,.h{
-    background-color: #A9CCE3;
-}
 .e{
     grid-column: 2/3;
+    background-color: #7FB3D5  ;
 }
 .f{
     grid-column: 3/4;
+    background-color: #85C1E9  ;
 }
 .j{
     grid-column: 4/5;
+    background-color:#5499C7  ;
 }
 .h{
     grid-column: 5/6;
+    background-color:#3498DB  ;
 }
 .i{
     grid-column: 2/6;
-    background-color: #D4E6F1;
+    background-color: #2980B9;
 }
 
+}
+@media (min-width:767px) and (max-width: 959px)
+{
+   
+    .a{
+        background-color: #85C1E9 ;
+        
+    }
+    .b{
+        background-color: #D6EAF8  ;
+    }
+    .c{
+       background-color: #CD5C5C;
+       
+    }
+    .d{
+        background-color: #F08080;
+        
+    }
+    .e{
+        background-color: #E9967A;
+    }
+    .f{
+        background-color: #FFA07A;
+    }
+    .j{
+        background-color: #FBEEE6;
+    }
+    .h{
+        background-color: #CD5C5C;
+    }
+    .i{
+       
+        background-color: #F6DDCC;
+    }
+
+}
 
 @media (min-width:320px) and (max-width: 767px)
 {
     main{
         display: grid;
         grid-template-columns: repeat(2,240px);
+       
         
     }
     .a{
@@ -66,38 +105,44 @@ main{
     
     }
     .c,.d{
-        background-color: #AED6F1;
+       
         height: 125px;
     }
     .c{
         grid-column: 1/3;
+        background-color: #148F77;
        
     }
     .d{
         grid-column: 1/3;
+        background-color: #48C9B0;
         
     }
     
     .e,.f,.j,.h{
-        background-color: #A9CCE3;
+       
         height: 250px;
     
     }
     .e{
         grid-column: 1/2;
+        background-color: #45B39D;
     }
     .f{
         grid-column: 2/3;
+        background-color: #76D7C4;
     }
     .j{
         grid-column: 1/2;
+        background-color: #148F77;
     }
     .h{
         grid-column: 2/3;
+        background-color: #ABEBC6;
     }
     .i{
         grid-column: 1/3;
-        background-color: #D4E6F1;
+        background-color: #A3E4D7;
         height: 80px;
     }
 }
