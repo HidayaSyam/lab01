@@ -1,0 +1,74 @@
+
+main{
+    display: grid;
+    grid-template-columns: 200px repeat(4fr);
+    grid-template-rows: 100px 200px 250px 150px;
+}
+.a{
+    background-color: darkgray;
+}
+.b{
+    background-color: darkmagenta;
+    height: 100%;
+    grid-column: 2/3;
+
+}
+/* main > .navcontent{
+    
+    height: 100px;
+    width:100%px;
+    background-color: aliceblue;
+}
+.content{
+    display: grid;
+    height: calc(768 - 100);
+    grid-template-columns: 200px 2fr  ;
+}
+aside {
+    order: 1;
+    height: 100%;
+    background-color: burlywood;
+}
+.f-Content{
+    grid-template-columns: 1fr 1fr;
+    background-color: cadetblue;
+    display: grid;
+    order: 2;
+}
+.f-Content section:first-child
+{
+    order: 2;
+    background-color: darkgray;
+}
+.f-Content section:last-child
+{
+    order: 3;
+    background-color: rgb(119, 93, 93);
+}
+.s-Content{
+
+background-color: chartreuse;
+display: grid;
+
+} */
+
+
+/* main > .f-Content {
+    order: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(132, 167, 167);
+    height:200px ;
+}
+main > .s-Content {
+    display: flex;
+    order: 3;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: black solid;
+  
+}
+
+main > .s-Content section{
+    height: 250px;
+    width: 100%;
+} */
